@@ -5,7 +5,7 @@ export default function JournalEntry (props) {
     return (
         <div className="journalEntry">
                 <div className="journalEntry--imgPane">
-                <img className="journalEntry--imgPane--coverImg" src={`https://github.com/monkeC0der/travel_journal/blob/main/src/assets/${props.entry.coverImg}`} />
+                <img className="journalEntry--imgPane--coverImg" src={`./${props.entry.coverImg}`} />
         </div>
         <div className="journalEntry--infoPane">
             <h1>{props.entry.title}</h1>
